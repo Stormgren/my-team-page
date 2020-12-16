@@ -36,8 +36,9 @@
 Dekstop view: 
 ![screenshot](https://user-images.githubusercontent.com/36208308/102379047-be142d80-3fc6-11eb-875e-66232f71afa4.png)
 
-Responsive view:
+
 ![screenshot](https://user-images.githubusercontent.com/36208308/102379531-3844b200-3fc7-11eb-99a6-22c62af935f7.png)
+
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
 Simple team introduction page built to match design from devchallenges 
