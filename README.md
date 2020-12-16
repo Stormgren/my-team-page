@@ -54,5 +54,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- GitHub [@your-username](https://https://github.com/Stormgren)
+- GitHub [@Stormgren](https://https://github.com/Stormgren)
 
