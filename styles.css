@@ -1,0 +1,172 @@
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#intro__title {
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+
+}
+
+span {
+    margin-right: 40px;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+span h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+
+}
+
+span p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+
+}
+
+.crew {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: space-evenly;
+}
+
+.mid {
+    position: relative;
+    top: 120px;
+
+}
+
+.crewmate__role {
+    position: relative;
+    top: 180px;
+    left: 100px;
+    transform: rotate(90deg);
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+
+.crewmate__img {
+    width: 240px;
+    height: 360px;
+}
+
+.crewmate__name {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+footer {
+    margin-top: 210px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #A9A9A9;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+@media(max-width: 975px) {
+
+
+    #intro__title {
+        font-size: 32px;
+    }
+
+    span {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .crew {
+        grid-template-columns: 250px 250px 250px;
+    }
+
+    .crewmate__img {
+        width: 200px;
+        height: 280px;
+    }
+
+    .crewmate__role {
+        top: 155px;
+        left: 85px;
+    }
+}
+
+@media (max-width:775px) {
+    body {
+        width: 475px;
+    }
+
+    header {
+        width: 100%;
+        flex-direction: column;
+        padding-left: 15px;
+    }
+
+    .crew {
+        grid-template-columns: 200px 200px;
+    }
+
+    .crewmate__img {
+        width: 180px;
+        height: 240px;
+    }
+
+    .crewmate__role {
+        top: 130px;
+        left: 90px;
+    }
+
+    .mid {
+        top: 0;
+    }
+
+    .crewmate:nth-child(even) {
+        position: relative;
+        top: 90px;
+    }
+
+}
+
+
+@media (max-width:515px) {
+    body {
+        width: 360px;
+    }
+
+
+    .crewmate__img {
+        width: 150px;
+        height: 210px;
+    }
+
+    .crewmate__role {
+        top: 130px;
+        left: 60px;
+    }
+
+}
